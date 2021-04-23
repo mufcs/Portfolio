@@ -1,0 +1,71 @@
+.head{
+  margin-left: 15px;
+}
+.container1{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+.skills{
+  width: 350px;
+  margin-left: 15px;
+  list-style: none;
+  box-sizing: border-box;
+  margin-right: 25px;
+}
+.skills li{
+  margin: 10px 0;
+}
+h6{
+  font-size: 8px;
+  font-weight: bold;
+}
+.bar{
+  background: #353b48;
+  display: block;
+  height: 2px;
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #2187e7b3;
+}
+.bar span{
+  height: 2px;
+  float: left;
+  background: #2187e7;
+}
+.html{
+  width: 70%;
+  animation: html 3s;
+}
+.css{
+  width: 70%;
+  animation: html 4s;
+}
+.jquery{
+  width: 50%;
+  animation: html 5s;
+}
+.react{
+  width: 85%;
+  animation: html 3s;
+}
+.node{
+  width: 55%;
+  animation: html 4s;
+}
+.mongo{
+  width: 70%;
+  animation: html 3s;
+}
+.postgresql{
+  width: 40%;
+  animation: html 4s;
+}
+@keyframes html {
+    0%{
+        width: 0%;
+    }
+}
