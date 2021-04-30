@@ -25,34 +25,45 @@ emailjs.sendForm('service_5msbb8q', 'template_6yewgib', e.target, 'user_HeLKYW29
       variants={ pageVariants }
       transition={ pageTransition }
     >
-      <h1>Contact me</h1>
+    <a href="#!">
+      <span>C</span>
+      <span>o</span>
+      <span>n</span>
+      <span>t</span>
+      <span>a</span>
+      <span>c</span>
+      <span>t</span>
+      <a href="#!" className="dist">
+      <span>m</span>
+      <span>e</span>
+</a>
+    </a>
 
         <div>
             <div className="container">
-              <p>Hello there. Nice to see you here. If you want to reach out for opportunities or want to know more about me. Please go ahead and use the form.
-              </p>
+              <div className="second_line">Hello there. Nice to see you here. If you want to reach out for opportunities or want to know more about me. Please go ahead and use the form.
+              </div>
             <form onSubmit={ sendEmail }>
                     <div>
                       <div className="container1">
                         <div className="box">
-                            <input type="text" className="form-control" placeholder="Name" name="name"/>
+                            <input type="text" className="form" placeholder="Name" name="name"/>
                         </div>
                         <div className="box">
-                            <input type="email" className="form-control" placeholder="Email Address" name="email"/>
+                            <input type="email" className="form" placeholder="Email Address" name="email"/>
                         </div>
                         </div>
                         <div className="container2">
                         <div className="box1">
-                            <input type="text" className="form-control" placeholder="Subject" name="subject"/>
+                            <input type="text" className="form" placeholder="Subject" name="subject"/>
                         </div>
                         <div className="box1">
-                            <textarea className="form-control" placeholder="Your message" name="message"></textarea>
+                            <textarea className="form" placeholder="Your message" name="message"></textarea>
                         </div>
                         </div>
-                        <div className="box2">
-                            <input  type="submit" className="form-control" value="Send message"></input>
-                        </div>
-
+                    </div>
+                    <div className="box2">
+                        <input  type="submit" className="push_email" value="Send message"></input>
                     </div>
                 </form>
             </div>
@@ -86,5 +97,5 @@ const pageTransition = {
 };
 
 const pageStyle = {
-  position: "absolute"
+  position: "absolute",
 };

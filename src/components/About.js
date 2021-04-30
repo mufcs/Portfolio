@@ -1,6 +1,8 @@
 import React from 'react';
 import { motion } from "framer-motion";
 // import { Switch, Route, NavLink, useLocation } from "react-router-dom";
+import"./About.css"
+import"./Reuse.css"
 
 
 function About() {
@@ -15,7 +17,25 @@ function About() {
     >
       <div className= "top1">
         <div>
-          <h1>Me, Myself & I</h1>
+          <a href="#!">
+            <span>M</span>
+            <span>e</span>
+            <span>,</span>
+            <a href="#!" className="dist">
+            <span>M</span>
+            <span>y</span>
+            <span>s</span>
+            <span>e</span>
+            <span>l</span>
+            <span>f</span>
+            </a>
+            <a href="#!" className="dist">
+            <span> & </span>
+            </a>
+            <a href="#!" className="dist">
+            <span>I</span>
+            </a>
+          </a>
           <p>
             Hey there, I am Amish Adhikari. A software engineer graduate from General Assembly, with over 5 years of experience in IT industry as a Business Analyst and Scrum Master. I have a serious passion for UI effects, animations, creating intuitive and dynamic user experience.
           </p>

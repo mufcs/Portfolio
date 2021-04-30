@@ -1,0 +1,40 @@
+a::before,
+a::after {
+  transform: translate3d(0, 0, 0);
+}
+a span{
+  position: relative;
+  font-size: 50px;
+  color: #07f5d1;
+  display: inline-block;
+  transform: perspective(1000px) rotate3d(0, 1, 0, 0deg);
+  transition: transform 0.5s, color 0.5s;
+}
+a:hover span {
+  color: #07f5d1;
+  transform: perspective(1000px) rotate3d(0, 1, 0, 360deg);
+}
+
+.a span:nth-child(4),
+.anime:hover span:first-child {
+  transition-delay: 0s;
+}
+a span:nth-child(3),
+a:hover span:nth-child(2) {
+  transition-delay: 0.1s;
+}
+a span:nth-child(2),
+a:hover span:nth-child(3) {
+  transition-delay: 0.2s;
+}
+a span:nth-child(3),
+a:hover span:nth-child(4) {
+  transition-delay: 0.3s;
+}
+a span:first-child,
+a:hover span:nth-child(5) {
+  transition-delay: 0.1s;
+}
+.dist{
+  padding-left: 8px;
+}

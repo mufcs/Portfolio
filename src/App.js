@@ -11,10 +11,10 @@ function App() {
   const location = useLocation();
 
   return (
-    <div className="container-fluid bg-light" style={{ height: "100vh" }}>
+    <div className="container-fluid bg-dark" style={{ height: "100vh" }}>
       <div className="row">
         <nav
-          className="col-6 col-sm-4 col-md-2 bg-dark py-5"
+          className="col-6 col-sm-4 col-md-2 py-5"
           style={{ height: "100vh", zIndex: 1000 }}
         >
           <ul className="nav nav-pills flex-column">

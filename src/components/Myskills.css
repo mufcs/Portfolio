@@ -12,9 +12,13 @@
 .skills{
   width: 350px;
   margin-left: 15px;
+  color: white;
   list-style: none;
   box-sizing: border-box;
   margin-right: 25px;
+}
+p {
+  font-size: 10px;
 }
 .skills li{
   margin: 10px 0;
@@ -34,7 +38,7 @@ h6{
 .bar span{
   height: 2px;
   float: left;
-  background: #2187e7;
+  background: #07f5d1;
 }
 .html{
   width: 70%;

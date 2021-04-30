@@ -14,9 +14,29 @@ function Myskills() {
       transition={ pageTransition }
     >
     <div className="head">
-      <h1>Skills & <br/>
-          Experience
-      </h1>
+      <a href="#!">
+        <span>S</span>
+        <span>k</span>
+        <span>i</span>
+        <span>l</span>
+        <span>l</span>
+        <span>s</span>
+        <a href="#!" className="dist">
+        <span>&</span>
+        </a>
+        <a href="#!" className="dist">
+        <span>E</span>
+        <span>x</span>
+        <span>p</span>
+        <span>e</span>
+        <span>r</span>
+        <span>i</span>
+        <span>e</span>
+        <span>n</span>
+        <span>c</span>
+        <span>e</span>
+        </a>
+      </a>
     </div>
 
     <div className="container1">
