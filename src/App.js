@@ -6,7 +6,6 @@ import Contact from './components/Contact';
 import Unavailable from './components/Unavailable';
 import { AnimatePresence } from "framer-motion";
 import { Switch, Route, NavLink, useLocation } from "react-router-dom";
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 function App() {
   const location = useLocation();
