@@ -1,0 +1,40 @@
+li {
+  margin-top: 10px;
+}
+.links__socialmedia {
+  margin-top: 60px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+button {
+  background-color: #058CF0;
+  color: #484A4B;
+  font-size: 11px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.LinkedIn__icon:hover,
+.Git__icon:hover,
+.Email__icon:hover,
+.Resume__icon:hover {
+  animation: bounce 1s linear;
+}
+@keyframes bounce {
+  20%,50%,80%,to {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  70% {
+    transform: translateY(-15px);
+  }
+  90% {
+    transform: translateY(-4px);
+  }
+}

@@ -21,6 +21,8 @@ img {
 	border: 0;
 	width: 100%;
 	height: auto;
+  margin-bottom: 45px;
+  margin-right: 20px;
 }
 .card-content {
 	padding: 1.4em;

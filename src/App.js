@@ -6,6 +6,12 @@ import Contact from './components/Contact';
 import Unavailable from './components/Unavailable';
 import { AnimatePresence } from "framer-motion";
 import { Switch, Route, NavLink, useLocation } from "react-router-dom";
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import EmailIcon from '@material-ui/icons/Email';
+import GetAppIcon from '@material-ui/icons/GetApp';
+import "./App.css";
+import CopyToClipboard from "./components/CopyToClipboard";
 
 function App() {
   const location = useLocation();
@@ -39,8 +45,25 @@ function App() {
               </NavLink>
             </li>
           </ul>
+          <div my__potraits>
+            <img src="https://i.imgur.com/RrBJFGu.png" alt="Amish's Potraits"/>
+          </div>
           <div className="links__socialmedia">
-            <p>What is it</p>
+            <div className="LinkedIn__icon">
+              <a href="https://www.linkedin.com/in/amishadhikari/" target="_blank"><LinkedInIcon /></a>
+            </div>
+            <div className="Git__icon">
+              <a href="https://github.com/mufcs?tab=repositories" target="_blank"><GitHubIcon /></a>
+            </div>
+            <div className="Download__icon">
+              <button className="Resume__icon">
+                Resume
+              <a href="https://drive.google.com/file/d/1YfbEKo2towCZNF6daZhUJVsfvcebAiXS/view?usp=sharing" target="_blank"><GetAppIcon /></a>
+              </button>
+            </div>
+            <div>
+              <EmailIcon />
+            </div>
           </div>
         </nav>
         <main

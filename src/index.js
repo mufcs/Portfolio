@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import { BrowserRouter } from "react-router-dom";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
+import { CopyToClipboard } from "react-copy-to-clipboard";
 
 ReactDOM.render(
   <BrowserRouter>
