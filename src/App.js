@@ -6,6 +6,7 @@ import Contact from './components/Contact';
 import Unavailable from './components/Unavailable';
 import { AnimatePresence } from "framer-motion";
 import { Switch, Route, NavLink, useLocation } from "react-router-dom";
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 function App() {
   const location = useLocation();
@@ -39,6 +40,9 @@ function App() {
               </NavLink>
             </li>
           </ul>
+          <div className="links__socialmedia">
+            <p>What is it</p>
+          </div>
         </nav>
         <main
           className="col-6 col-sm-8 col-md-10 py-5"

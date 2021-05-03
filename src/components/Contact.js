@@ -47,18 +47,18 @@ emailjs.sendForm('service_5msbb8q', 'template_6yewgib', e.target, 'user_HeLKYW29
                     <div>
                       <div className="container1">
                         <div className="box">
-                            <input type="text" className="form" placeholder="Name" name="name"/>
+                            <input type="text" className="form" placeholder="Name" name="name" required/>
                         </div>
                         <div className="box">
-                            <input type="email" className="form" placeholder="Email Address" name="email"/>
+                            <input type="email" className="form" placeholder="Email Address" name="email" required/>
                         </div>
                         </div>
                         <div className="container2">
                         <div className="box1">
-                            <input type="text" className="form" placeholder="Subject" name="subject"/>
+                            <input type="text" className="form" placeholder="Subject" name="subject" required/>
                         </div>
                         <div className="box1">
-                            <textarea className="form" placeholder="Your message" name="message"></textarea>
+                            <textarea className="form" placeholder="Your message" name="message" required></textarea>
                         </div>
                         </div>
                     </div>

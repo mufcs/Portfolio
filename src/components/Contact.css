@@ -1,5 +1,5 @@
 .container{
-  width: 60%;
+  width: 50%;
   height: auto;
   margin-left: -1.8%;
 }
@@ -12,10 +12,10 @@
   box-sizing: border-box;
 }
 .form{
-  height: 25px;
+  height: 30px;
   width: 100%;
   border-radius: 0px;
-  font-size: 10px;
+  font-size: 15px;
   background-color: #414a4c;
   color: #07f5d1;
 }
@@ -30,19 +30,22 @@
   margin-top: 20px;
 }
 .second_line {
-  font-size: 10px;
+  font-size: 1.01vw;
   color: white;
+  text-align: justify;
 }
 .push_email{
+  height: 35px;
   background-color: #414a4c;
   color: #6e7572;
-  font-size: 10px;
+  font-size: 15px;
+  font-weight: bold;
   text-align: center;
   transition: 0.8s;
 }
 .push_email:hover {
   background-color: #07f5d1;
   border-color: #07f5d1;
-  padding-right: 4px;
-  padding-bottom: 5px;
+  padding-right: 12px;
+  padding-bottom: 15px;
 }

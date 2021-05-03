@@ -10,32 +10,35 @@
   flex-flow: wrap;
 }
 .skills{
-  width: 350px;
+  width: 400px;
   margin-left: 15px;
   color: white;
+  text-align: justify;
   list-style: none;
   box-sizing: border-box;
   margin-right: 25px;
 }
 p {
-  font-size: 10px;
+  font-size: 1.01vw;
 }
 .skills li{
   margin: 10px 0;
 }
 h6{
-  font-size: 8px;
+  font-size: 2px;
   font-weight: bold;
+  font-size: 18px;
+  color: #07f5d1;
 }
 .bar{
-  background: #353b48;
+  background: #AEAFB2;
   display: block;
   height: 2px;
   border-radius: 3px;
   overflow: hidden;
   box-shadow: 0 0 10px #2187e7b3;
 }
-.bar span{
+.bar span {
   height: 2px;
   float: left;
   background: #07f5d1;
@@ -58,6 +61,7 @@ h6{
 }
 .node{
   width: 55%;
+  /* color: #AEAFB2;  */
   animation: html 4s;
 }
 .mongo{
