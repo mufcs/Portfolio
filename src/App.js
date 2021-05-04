@@ -61,9 +61,6 @@ function App() {
               <a href="https://drive.google.com/file/d/1YfbEKo2towCZNF6daZhUJVsfvcebAiXS/view?usp=sharing" target="_blank"><GetAppIcon /></a>
               </button>
             </div>
-            <div>
-              <EmailIcon />
-            </div>
           </div>
         </nav>
         <main

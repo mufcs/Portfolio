@@ -7,21 +7,17 @@
   flex-flow: wrap;
 }
 .Brief__me {
-    width: 40vw;
-    height: 50vh;
-    max-width: 600px;
-    min-width: 600px;
-    margin-left: 4px;
     color: white;
-    box-sizing: border-box;
     font-size: 1.01vw;
-}
-.Brief__me p {
-  font-size: 1.01vw;
-  text-align: justify;
+    text-align: justify;
+    width: 550px;
+    margin-right: 80px;
+    margin-left: 1px;
+    text-align: justify;
+    list-style: none;
 }
 .text1 {
-width: 90%;
+width: 100%;
 height: 80vh;
 background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.01)), url("https://i.imgur.com/PzvRmLh.png");
 background-size: cover;
@@ -30,6 +26,7 @@ justify-content: space-around;
 flex-flow: wrap;
 color: #07f5d1;
 font-weight: bold;
+/* margin-left: 60px; */
 }
 .one {
   font-size: 20px;
@@ -86,7 +83,7 @@ font-weight: bold;
   margin-right: 300px;
   color: #CB3F2B;
   opacity: 1;
-  animation: move 30s infinite alternate ;
+  animation: move 20s infinite alternate ;
 }
 @keyframes move{
   50% {transform:translate(10vw);}
@@ -136,49 +133,3 @@ font-weight: bold;
   50% {transform:translate(10vw);}
   100% {transform:translate(100vw - ave-length);}
  }
-
-
-
-/* .tech__stacks {
-  width: 100%;
-  position: relative;
-  margin-top: -62%;
-  display: flex;
-  justify-content: space-around;
-  flex-flow: wrap;
-}
-.tech__stacks h1{
-  text-align: left;
-  margin-left: 2rem;
-  font-size: 40px;
-  color: #d60000;
-  font-weight: bold;
-}
-.tech__stacks1 {
-  width: 100%;
-  position: absolute;
-  margin-top: 15%;
-  display: flex;
-  justify-content: space-around;
-  flex-flow: wrap;
-}
-.tech__stacks1 h1{
-  text-align: left;
-  margin-left: 2rem;
-  font-size: 40px;
-  color: #07f5d1;
-}
-.tech__stacks2 {
-  width: 100%;
-  position: relative;
-  margin-top: 15%;
-  display: flex;
-  justify-content: space-around;
-  flex-flow: wrap;
-}
-.tech__stacks2 h1{
-  text-align: left;
-  margin-left: 2rem;
-  font-size: 40px;
-  color: #07f5d1;
-} */

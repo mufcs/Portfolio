@@ -1,8 +1,9 @@
 .head{
   margin-left: 15px;
 }
-.container1{
+.container_1{
   width: 100%;
+  margin-left: -35px;
   height: auto;
   display: flex;
   flex-direction: row;
@@ -10,15 +11,13 @@
   flex-flow: wrap;
 }
 .skills{
-  width: 400px;
-  margin-left: 15px;
+  width: 550px;
+  margin-left: 1px;
   color: white;
   text-align: justify;
   list-style: none;
   box-sizing: border-box;
   margin-right: 25px;
-}
-p {
   font-size: 1.01vw;
 }
 .skills li{

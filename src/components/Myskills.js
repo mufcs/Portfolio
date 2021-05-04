@@ -39,7 +39,7 @@ function Myskills() {
       </a>
     </div>
 
-    <div className="container1">
+    <div className="container_1">
       <div className="skills">
 
           <li>
@@ -71,7 +71,7 @@ function Myskills() {
               I have been working as a Business Analyst with Product team, within IT department since last 5+ years. I have helped organisation by aligning their fluctuating business needs with emerging technologies such as SaaS, RPA, CRM, Digitization, API to attain business goals.
             </p>
             <p>
-               I beleive iterative and incremental development leads to qualitative, sustainable, intuitive and user friendly product. It also helps to cultivate continuous improvement culture within a team. which shifts team's mindset to be pro-active rather than reactive. I have worked in different methodologies such as but not limited to Agile, Prince2, Waterfall.
+               I beleive iterative and incremental development leads to qualitative, sustainable, intuitive and user friendly product, it also helps to cultivate continuous improvement culture within a team. which shifts team's mindset to be pro-active rather than reactive. I have worked in different methodologies such as but not limited to Scrum, Agile, Prince2, Waterfall.
             </p>
 
         </div>

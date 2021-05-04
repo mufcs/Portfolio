@@ -36,38 +36,29 @@ emailjs.sendForm('service_5msbb8q', 'template_6yewgib', e.target, 'user_HeLKYW29
       <a href="#!" className="dist">
       <span>m</span>
       <span>e</span>
-</a>
+      </a>
     </a>
-
+    <div className="second_line">Hello there. Nice to see you here. If you want to reach out for opportunities or want to know more about me. Please go ahead and use the form.
+      </div>
+      <div className="map__form">
+      <form onSubmit={ sendEmail }>
         <div>
-            <div className="container">
-              <div className="second_line">Hello there. Nice to see you here. If you want to reach out for opportunities or want to know more about me. Please go ahead and use the form.
-              </div>
-            <form onSubmit={ sendEmail }>
-                    <div>
-                      <div className="container1">
-                        <div className="box">
-                            <input type="text" className="form" placeholder="Name" name="name" required/>
-                        </div>
-                        <div className="box">
-                            <input type="email" className="form" placeholder="Email Address" name="email" required/>
-                        </div>
-                        </div>
-                        <div className="container2">
-                        <div className="box1">
-                            <input type="text" className="form" placeholder="Subject" name="subject" required/>
-                        </div>
-                        <div className="box1">
-                            <textarea className="form" placeholder="Your message" name="message" required></textarea>
-                        </div>
-                        </div>
-                    </div>
-                    <div className="box2">
-                        <input  type="submit" className="push_email" value="Send message"></input>
-                    </div>
-                </form>
+          <div class="contact-in">
+            <div class="contact-form">
+              <input type="text" placeholder="Name" name="name"class="contact-form-txt" required />
+              <input type="text" placeholder="Email Address" name="email"  class="contact-form-txt" required />
+              <input type="text" placeholder="Subject" name="subject" class="contact-form-txt" required  />
+              <textarea placeholder="Your message" name="message" class="contact-form-textarea" required ></textarea>
+              <input type="submit" name="Submit" class="contact-form-btn" />
             </div>
+          </div>
         </div>
+      </form>
+      <div class="contact-map">
+        <iframe width="100%" height="auto" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3309.5988192557256!2d151.05034741550526!3d-33.95144508063352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12b94a075612d3%3A0xd0fa66f2deaa0ac7!2sRiverwood!5e0!3m2!1sen!2sau!4v1620100610788!5m2!1sen!2sau">
+        </iframe>
+      </div>
+    </div>
     </motion.div>
   );
  }
